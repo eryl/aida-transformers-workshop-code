@@ -20,7 +20,7 @@ The learning material is centered around notebooks, it is a suitable platform fo
 The notebooks are designed to either 1) be run from your own computer, in which case you need to perform the installation steps below, or 2) From Google Colab in which case you need to follow the "colab" link after the link to the notebook below.
 
 Workshop notebooks:
- - [Transformers for images](notebooks/transformsers_for_images.ipynb) ([colab](https://colab.research.google.com/github/eryl/aida-transformers-workshop-code/blob/main/notebooks/graph_basics.ipynb))
+ - [Transformers for images](notebooks/transformers_for_images.ipynb) ([colab](https://colab.research.google.com/github/eryl/aida-transformers-workshop-code/blob/main/notebooks/transformers_for_images.ipynb))
  
 Installing dependencies for local use
 =====================================
