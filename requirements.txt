@@ -1,0 +1,13 @@
+torch
+torchvision
+lightning
+transformers 
+datasets 
+evaluate
+scikit-learn
+tqdm
+matplotlib
+numpy
+jupyter
+ipywidgets
+tensorboard

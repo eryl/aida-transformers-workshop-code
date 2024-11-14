@@ -28,8 +28,32 @@ First clone this repository using git:
 
 ```shell
 #Download the workshop material (this repository)
-> git clone git@github.com:eryl/aida-transformers-workshop-code.git
+$ git clone git@github.com:eryl/aida-transformers-workshop-code.git
 ```
+
+Now install the pip dependencies. We will use a virtual environment in the project directory:
+
+```shell
+$ cd aida-transformers-workshop-code
+#Create a virtual environment in the project directory
+$ python -m venv .venv
+# Activate the environment
+$ source .venv/bin/activate
+# Install requrements
+$ pip install -r requirements.txt
+```
+
+Now you can start the notebook server in the notebook directory:
+
+Start the local jupyter server by running
+
+```shell
+$ cd notebooks
+# Start the jupyter notebook server
+$ jupyter notebooks
+```
+
+<!-- 
 This workshop assumes you are using [Anaconda](https://www.anaconda.com/) (or a variant like [miniforge](https://github.com/conda-forge/miniforge)), so install one if you don't have it. 
 
 It is highly suggested that you use the `libmamba` dependency solver, the default conda solver is extremely slow for this relatively complex environment file:
@@ -59,4 +83,4 @@ As an alternative to using `conda` above, we recommend that you install [`mamba`
 > conda install -n base mamba -c conda-forge
 # Create workshop environment "aida_workshop_gnn"
 > mamba env create -f environment.yml
-```
+``` -->
