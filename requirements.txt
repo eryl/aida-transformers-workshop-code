@@ -11,3 +11,4 @@ numpy
 jupyter
 ipywidgets
 tensorboard
+accelerate>=0.26.0
