@@ -70,3 +70,5 @@ datasets/bibtex/transattr.tex
 #Ignore matlab cache
 *.asv
 *.m~
+
+models*
